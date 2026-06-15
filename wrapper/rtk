@@ -1,0 +1,8 @@
+#!/bin/sh
+# agpipe shim para `rtk` (macOS/Linux/WSL).
+# install.sh reemplaza los placeholders __...__ con rutas absolutas de esta máquina.
+# Va PRIMERO en el PATH (delante del rtk real) y delega en rtkread.py, que intercepta
+# `rtk read <doc>` y pasa todo lo demás al binario rtk real.
+export AGPIPE_VENV="__AGPIPE_VENV__"
+export AGPIPE_REAL_RTK="__AGPIPE_REAL_RTK__"
+exec "$AGPIPE_VENV/bin/python" "__AGPIPE_HOME__/wrapper/rtkread.py" "$@"

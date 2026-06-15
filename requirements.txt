@@ -1,0 +1,7 @@
+# Tooling Python del pipeline (se instala en el venv dedicado ~/.agpipe-venv).
+# Pinned para reproducibilidad entre máquinas.
+graphifyy==0.8.39
+markitdown[pdf,docx,pptx,xlsx]==0.1.6
+trafilatura==2.1.0
+# tiktoken: solo necesario para el benchmark de tokens (scripts/bench). Opcional.
+tiktoken==0.13.0

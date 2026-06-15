@@ -1,0 +1,33 @@
+# build / deps / vendored
+node_modules/
+dist/
+build/
+out/
+.next/
+.firebase/
+.git/
+coverage/
+# agent/tooling dirs (no son código de la app)
+.agents/
+.claude/
+.gemini/
+graphify-out/
+# entornos python
+.venv/
+venv/
+__pycache__/
+# lockfiles y minificados
+package-lock.json
+*.min.js
+*.min.css
+# binarios/imágenes
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.gif
+*.webp
+*.ico
+*.mp4
+*.woff
+*.woff2
