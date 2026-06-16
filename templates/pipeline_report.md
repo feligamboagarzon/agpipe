@@ -59,7 +59,7 @@ El ahorro extremo de tokens se logra mediante la integración de varios pilares 
 ### C. Integración de MarkItDown (Microsoft) en RTK
 * **Qué es:** Una integración que intercepta el comando `rtk read <file>` (y llamadas a lectura de archivos no estructurados).
 * **Cómo ahorra tokens:** Si el archivo tiene extensiones de documento (como `.pdf`, `.docx`, `.xlsx`, `.pptx`, `.html`, `.png`, `.jpg`, `.mp3`, `.wav`), el script wrapper de `rtk` lo procesa automáticamente con `markitdown` para convertirlo en Markdown estructurado y ligero. Si no es un documento (código fuente tradicional), delega el comando directamente al binario original de `rtk read`.
-* **Ubicación del Wrapper:** `/Users/feli/.antigravity-ide/antigravity-ide/bin/rtk`
+* **Ubicación del Wrapper:** el shim primario vive en `~/.local/bin/rtk` (lo instala `install.sh`); opcionalmente se refuerza una copia en el `bin/` del IDE Antigravity, que se pierde al actualizar el IDE.
 
 ### D. Hooks de Reescritura Automática (`PreToolUse`)
 * Integrado en la configuración del agente (como Claude Code), el hook intercepta llamadas a herramientas de visualización crudas (como `cat archivo.pdf`) y las reescribe automáticamente a `rtk read archivo.pdf`, garantizando que la conversión de MarkItDown y la optimización de RTK se apliquen de forma transparente.
@@ -116,13 +116,3 @@ Claude debe adherirse estrictamente a las siguientes reglas (documentadas en det
    - No comiences tareas de andamiaje o planificación de alto nivel. Si Gemini no ha generado el plan de la Etapa 1, solicítalo antes de codificar.
    - Al terminar de modificar el código (Etapa 2), genera un reporte estructurado de los nodos y archivos que editaste para que Gemini genere las pruebas unitarias correspondientes.
 5. **Bucle de Pruebas:** En la Etapa 5, ejecuta los tests utilizando `rtk` y soluciona los errores directamente en el código de producción. Si el test en sí es erróneo, pide a Gemini su regeneración.
-
----
-
-## 5. Integración con TestSprite
-
-El pipeline cuenta con la integración de **TestSprite** a través de su servidor de herramientas MCP. Esto permite la automatización y validación del código mediante las siguientes herramientas:
-- `testsprite_bootstrap`: Para inicializar suites de pruebas.
-- `testsprite_generate_frontend_test_plan` y `testsprite_generate_backend_test_plan`: Planificación autónoma de tests.
-- `testsprite_generate_code_and_execute`: Generación de código de prueba y ejecución continua.
-- `testsprite_open_test_result_dashboard`: Visualización de resultados de pruebas para auditoría humana y reporte.

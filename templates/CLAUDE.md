@@ -4,6 +4,11 @@
 > (y para Claude Code CLI si se usa el bridge MCP). Define tu rol, tus límites y la
 > disciplina de tokens. Léelo al inicio de cada tarea.
 
+> [!IMPORTANT]
+> **agpipe es una herramienta/framework de infraestructura de desarrollo:**
+> Los archivos y carpetas del pipeline (tales como `CLAUDE.md`, `GEMINI.md`, `HANDOFF.md`, `.graphifyignore`, `.claude/settings.json`, la carpeta `graphify-out/`, o la instalación global en `~/.agpipe/` y `~/.agpipe-venv/`) **son de solo lectura**. 
+> **NO modifiques, crees ni elimines** archivos dentro de estas rutas a menos que el usuario lo solicite explícitamente. Trátalo puramente como la infraestructura que da soporte al proyecto.
+
 ---
 
 ## 1. Quién eres en este flujo

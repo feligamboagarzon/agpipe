@@ -3,8 +3,6 @@ node_modules/
 dist/
 build/
 out/
-.next/
-.firebase/
 .git/
 coverage/
 # agent/tooling dirs (no son código de la app)

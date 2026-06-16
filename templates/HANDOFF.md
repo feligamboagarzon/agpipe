@@ -19,7 +19,7 @@
 **Nodos / símbolos modificados:**
 | Nodo (símbolo) | Archivo:línea | Cambio | ¿Firma/contrato tocado? |
 |---|---|---|---|
-| `ej: publishNow()` | `src/lib/posts.ts:134` | _qué cambió_ | sí/no |
+| `ej: validateInput()` | `src/lib/validation.ts:134` | _qué cambió_ | sí/no |
 
 **Consumidores actualizados (efecto dominó):**
 - `ruta` ← actualizado porque _…_  (usa `graphify path "A" "B"` para no dejar ninguno)

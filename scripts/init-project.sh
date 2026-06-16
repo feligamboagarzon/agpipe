@@ -29,6 +29,40 @@ copy .graphifyignore      .graphifyignore
 copy HANDOFF.md           HANDOFF.md
 copy project-settings.json .claude/settings.json
 
+# Crea un enlace a la instalación global de agpipe para que graphify lo indexe
+echo "Vinculando instalación de agpipe..."
+mkdir -p .agpipe
+if [ ! -L ".agpipe/source" ] && [ ! -e ".agpipe/source" ]; then
+  ln -s "$HOME/.agpipe" ".agpipe/source"
+  echo "  + .agpipe/source -> $HOME/.agpipe"
+fi
+
+# Asegura que las carpetas locales de agentes estén en .gitignore
+GITIGNORE=".gitignore"
+entries=(
+  ".gemini/"
+  ".agents/"
+  "scratch/"
+  ".agpipe/source"
+)
+
+echo "Configurando .gitignore..."
+[ -f "$GITIGNORE" ] || touch "$GITIGNORE"
+
+has_header=0
+for entry in "${entries[@]}"; do
+  if ! grep -q "^$entry" "$GITIGNORE" 2>/dev/null; then
+    if [ "$has_header" -eq 0 ]; then
+      echo -e "\n# agpipe & agent local directories" >> "$GITIGNORE"
+      has_header=1
+    fi
+    echo "$entry" >> "$GITIGNORE"
+    echo "  + $entry añadido a .gitignore"
+  fi
+done
+
+
+
 echo "Construyendo grafo (AST, sin costo de API)..."
 if command -v graphify >/dev/null 2>&1; then
   graphify update . >/dev/null 2>&1 && echo "  + graphify-out/ listo (commitéalo para handoff resiliente)" \
