@@ -1,0 +1,102 @@
+{
+  ".gemini/settings.json": {
+    "mtime": 1781568225.149713,
+    "ast_hash": "f080aabf772e803c9e24b9ad0acbf2b6",
+    "semantic_hash": ""
+  },
+  "install.ps1": {
+    "mtime": 1781555735.7802033,
+    "ast_hash": "8ca3dd719081c25bd2a5056e5a4e6f35",
+    "semantic_hash": ""
+  },
+  "install.sh": {
+    "mtime": 1781572985.6945772,
+    "ast_hash": "31172d0259f53a6bffe7c231074f18d2",
+    "semantic_hash": ""
+  },
+  "scratch/test-demo.sh": {
+    "mtime": 1781568560.8867905,
+    "ast_hash": "e6d7fd8e0ab480ee70602b52f2335733",
+    "semantic_hash": ""
+  },
+  "scripts/demo-tutorial.sh": {
+    "mtime": 1781570029.1343923,
+    "ast_hash": "b4fb125ef2c96d35248399bf370c881f",
+    "semantic_hash": ""
+  },
+  "scripts/init-project.sh": {
+    "mtime": 1781555646.065977,
+    "ast_hash": "54199aafed1bd29f66b038d722be8f5e",
+    "semantic_hash": ""
+  },
+  "templates/project-settings.json": {
+    "mtime": 1781555611.498892,
+    "ast_hash": "e1073342e958ac9f00716938c8f165e3",
+    "semantic_hash": ""
+  },
+  "uninstall.sh": {
+    "mtime": 1781555711.391213,
+    "ast_hash": "e657169240926fa0e36bb0c5825ff902",
+    "semantic_hash": ""
+  },
+  "wrapper/rtk": {
+    "mtime": 1781555572.8896475,
+    "ast_hash": "22593912ce633cc8623640a90f7e25de",
+    "semantic_hash": ""
+  },
+  "wrapper/rtkread.py": {
+    "mtime": 1781570006.0628002,
+    "ast_hash": "46f34ccd0dd28f8e2f3c41973841ee78",
+    "semantic_hash": ""
+  },
+  "GEMINI.md": {
+    "mtime": 1781567518.1376133,
+    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1781555761.853286,
+    "ast_hash": "65e0ae4fd809a200a9b49c4c1f54f7c0",
+    "semantic_hash": ""
+  },
+  "requirements.txt": {
+    "mtime": 1781555499.5386531,
+    "ast_hash": "021bca130e4373f2a39f420ef48d2ab2",
+    "semantic_hash": ""
+  },
+  "templates/CLAUDE.md": {
+    "mtime": 1781572849.772681,
+    "ast_hash": "eb151217c4ddd3e7b6b274dae4703f25",
+    "semantic_hash": ""
+  },
+  "templates/GEMINI.md": {
+    "mtime": 1781555628.6510441,
+    "ast_hash": "c2ddad43a468c455d187fb0395aee650",
+    "semantic_hash": ""
+  },
+  "templates/HANDOFF.md": {
+    "mtime": 1781555611.5040884,
+    "ast_hash": "87b3ef747f5eec9a0cb8c644c3083010",
+    "semantic_hash": ""
+  },
+  "templates/RTK.md": {
+    "mtime": 1781555611.5104322,
+    "ast_hash": "791da0c04e9379628ed304b5e297a3e7",
+    "semantic_hash": ""
+  },
+  "templates/pipeline_report.md": {
+    "mtime": 1781555611.5085084,
+    "ast_hash": "ec921fcc69be022aef1465a22e1aec96",
+    "semantic_hash": ""
+  },
+  "wrapper/rtk-hook-gemini-wrapper.py": {
+    "mtime": 1781570386.798075,
+    "ast_hash": "499a760558d293e69987d5f590f22cf6",
+    "semantic_hash": ""
+  },
+  ".agents/rules/antigravity-rtk-rules.md": {
+    "mtime": 1781569070.040161,
+    "ast_hash": "da893019dc3aba4f346b601f8bb84c38",
+    "semantic_hash": ""
+  }
+}

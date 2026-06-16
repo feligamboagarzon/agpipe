@@ -1,0 +1,2530 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "install.ps1",
+      "file_type": "code",
+      "source_file": "install.ps1",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "install_ps1_install",
+      "community": 10,
+      "norm_label": "install.ps1"
+    },
+    {
+      "label": "Say()",
+      "file_type": "code",
+      "source_file": "install.ps1",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "install_ps1_install_say",
+      "community": 10,
+      "norm_label": "say()"
+    },
+    {
+      "label": "Warn()",
+      "file_type": "code",
+      "source_file": "install.ps1",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "install_ps1_install_warn",
+      "community": 10,
+      "norm_label": "warn()"
+    },
+    {
+      "label": "install.sh",
+      "file_type": "code",
+      "source_file": "install.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "install_sh_install",
+      "community": 5,
+      "norm_label": "install.sh"
+    },
+    {
+      "label": "install.sh script",
+      "file_type": "code",
+      "source_file": "install.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "users_feli_desktop_antigrav_agpipe_install_sh__entry",
+      "community": 5,
+      "norm_label": "install.sh script"
+    },
+    {
+      "label": "say()",
+      "file_type": "code",
+      "source_file": "install.sh",
+      "source_location": "L12",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "install_sh_install_say",
+      "community": 5,
+      "norm_label": "say()"
+    },
+    {
+      "label": "warn()",
+      "file_type": "code",
+      "source_file": "install.sh",
+      "source_location": "L13",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "install_sh_install_warn",
+      "community": 5,
+      "norm_label": "warn()"
+    },
+    {
+      "label": "backup()",
+      "file_type": "code",
+      "source_file": "install.sh",
+      "source_location": "L14",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "install_backup",
+      "community": 5,
+      "norm_label": "backup()"
+    },
+    {
+      "label": "ensure_path()",
+      "file_type": "code",
+      "source_file": "install.sh",
+      "source_location": "L71",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "install_ensure_path",
+      "community": 5,
+      "norm_label": "ensure_path()"
+    },
+    {
+      "label": "test-demo.sh",
+      "file_type": "code",
+      "source_file": "scratch/test-demo.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scratch_test_demo",
+      "community": 7,
+      "norm_label": "test-demo.sh"
+    },
+    {
+      "label": "test-demo.sh script",
+      "file_type": "code",
+      "source_file": "scratch/test-demo.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "users_feli_desktop_antigrav_agpipe_scratch_test_demo_sh__entry",
+      "community": 7,
+      "norm_label": "test-demo.sh script"
+    },
+    {
+      "label": "say()",
+      "file_type": "code",
+      "source_file": "scratch/test-demo.sh",
+      "source_location": "L7",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scratch_test_demo_say",
+      "community": 7,
+      "norm_label": "say()"
+    },
+    {
+      "label": "warn()",
+      "file_type": "code",
+      "source_file": "scratch/test-demo.sh",
+      "source_location": "L8",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scratch_test_demo_warn",
+      "community": 7,
+      "norm_label": "warn()"
+    },
+    {
+      "label": "wait_enter()",
+      "file_type": "code",
+      "source_file": "scratch/test-demo.sh",
+      "source_location": "L9",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scratch_test_demo_wait_enter",
+      "community": 7,
+      "norm_label": "wait_enter()"
+    },
+    {
+      "label": "demo-tutorial.sh",
+      "file_type": "code",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_demo_tutorial",
+      "community": 8,
+      "norm_label": "demo-tutorial.sh"
+    },
+    {
+      "label": "demo-tutorial.sh script",
+      "file_type": "code",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "users_feli_desktop_antigrav_agpipe_scripts_demo_tutorial_sh__entry",
+      "community": 8,
+      "norm_label": "demo-tutorial.sh script"
+    },
+    {
+      "label": "say()",
+      "file_type": "code",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L9",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_demo_tutorial_say",
+      "community": 8,
+      "norm_label": "say()"
+    },
+    {
+      "label": "warn()",
+      "file_type": "code",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L10",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_demo_tutorial_warn",
+      "community": 8,
+      "norm_label": "warn()"
+    },
+    {
+      "label": "start_tail()",
+      "file_type": "code",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L15",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_demo_tutorial_start_tail",
+      "community": 8,
+      "norm_label": "start_tail()"
+    },
+    {
+      "label": "stop_tail()",
+      "file_type": "code",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L21",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_demo_tutorial_stop_tail",
+      "community": 8,
+      "norm_label": "stop_tail()"
+    },
+    {
+      "label": "wait_enter()",
+      "file_type": "code",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L25",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_demo_tutorial_wait_enter",
+      "community": 8,
+      "norm_label": "wait_enter()"
+    },
+    {
+      "label": "init-project.sh",
+      "file_type": "code",
+      "source_file": "scripts/init-project.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_init_project",
+      "community": 11,
+      "norm_label": "init-project.sh"
+    },
+    {
+      "label": "init-project.sh script",
+      "file_type": "code",
+      "source_file": "scripts/init-project.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "users_feli_desktop_antigrav_agpipe_scripts_init_project_sh__entry",
+      "community": 11,
+      "norm_label": "init-project.sh script"
+    },
+    {
+      "label": "copy()",
+      "file_type": "code",
+      "source_file": "scripts/init-project.sh",
+      "source_location": "L21",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_init_project_copy",
+      "community": 11,
+      "norm_label": "copy()"
+    },
+    {
+      "label": "uninstall.sh",
+      "file_type": "code",
+      "source_file": "uninstall.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "uninstall",
+      "community": 12,
+      "norm_label": "uninstall.sh"
+    },
+    {
+      "label": "uninstall.sh script",
+      "file_type": "code",
+      "source_file": "uninstall.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "users_feli_desktop_antigrav_agpipe_uninstall_sh__entry",
+      "community": 12,
+      "norm_label": "uninstall.sh script"
+    },
+    {
+      "label": "say()",
+      "file_type": "code",
+      "source_file": "uninstall.sh",
+      "source_location": "L7",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "uninstall_say",
+      "community": 12,
+      "norm_label": "say()"
+    },
+    {
+      "label": "rtk-hook-gemini-wrapper.py",
+      "file_type": "code",
+      "source_file": "wrapper/rtk-hook-gemini-wrapper.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "wrapper_rtk_hook_gemini_wrapper",
+      "community": 15,
+      "norm_label": "rtk-hook-gemini-wrapper.py"
+    },
+    {
+      "label": "clean_cmd()",
+      "file_type": "code",
+      "source_file": "wrapper/rtk-hook-gemini-wrapper.py",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "wrapper_rtk_hook_gemini_wrapper_clean_cmd",
+      "community": 15,
+      "norm_label": "clean_cmd()"
+    },
+    {
+      "label": "restore_cmd()",
+      "file_type": "code",
+      "source_file": "wrapper/rtk-hook-gemini-wrapper.py",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "wrapper_rtk_hook_gemini_wrapper_restore_cmd",
+      "community": 15,
+      "norm_label": "restore_cmd()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "wrapper/rtk-hook-gemini-wrapper.py",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "wrapper_rtk_hook_gemini_wrapper_main",
+      "community": 15,
+      "norm_label": "main()"
+    },
+    {
+      "label": "rtkread.py",
+      "file_type": "code",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "wrapper_rtkread",
+      "community": 2,
+      "norm_label": "rtkread.py"
+    },
+    {
+      "label": "venv_bin()",
+      "file_type": "code",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "wrapper_rtkread_venv_bin",
+      "community": 2,
+      "norm_label": "venv_bin()"
+    },
+    {
+      "label": "looks_like_self()",
+      "file_type": "code",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "wrapper_rtkread_looks_like_self",
+      "community": 2,
+      "norm_label": "looks_like_self()"
+    },
+    {
+      "label": "find_real_rtk()",
+      "file_type": "code",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "wrapper_rtkread_find_real_rtk",
+      "community": 2,
+      "norm_label": "find_real_rtk()"
+    },
+    {
+      "label": "exec_real_rtk()",
+      "file_type": "code",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "wrapper_rtkread_exec_real_rtk",
+      "community": 2,
+      "norm_label": "exec_real_rtk()"
+    },
+    {
+      "label": "emit()",
+      "file_type": "code",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "wrapper_rtkread_emit",
+      "community": 2,
+      "norm_label": "emit()"
+    },
+    {
+      "label": "report()",
+      "file_type": "code",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "wrapper_rtkread_report",
+      "community": 2,
+      "norm_label": "report()"
+    },
+    {
+      "label": "get_compressed_text()",
+      "file_type": "code",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "wrapper_rtkread_get_compressed_text",
+      "community": 2,
+      "norm_label": "get_compressed_text()"
+    },
+    {
+      "label": "convert()",
+      "file_type": "code",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L143",
+      "_origin": "ast",
+      "id": "wrapper_rtkread_convert",
+      "community": 2,
+      "norm_label": "convert()"
+    },
+    {
+      "label": "count_tokens()",
+      "file_type": "code",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L161",
+      "_origin": "ast",
+      "id": "wrapper_rtkread_count_tokens",
+      "community": 2,
+      "norm_label": "count_tokens()"
+    },
+    {
+      "label": "is_project_initialized()",
+      "file_type": "code",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L171",
+      "_origin": "ast",
+      "id": "wrapper_rtkread_is_project_initialized",
+      "community": 2,
+      "norm_label": "is_project_initialized()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L183",
+      "_origin": "ast",
+      "id": "wrapper_rtkread_main",
+      "community": 2,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Ruta a un ejecutable dentro del venv (bin/ en Unix, Scripts/ en Windows).",
+      "file_type": "rationale",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "wrapper_rtkread_rationale_24",
+      "community": 2,
+      "norm_label": "ruta a un ejecutable dentro del venv (bin/ en unix, scripts/ en windows)."
+    },
+    {
+      "label": "True si `path` es nuestro propio shim (evita recursi\u00f3n infinita).",
+      "file_type": "rationale",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "wrapper_rtkread_rationale_34",
+      "community": 2,
+      "norm_label": "true si `path` es nuestro propio shim (evita recursion infinita)."
+    },
+    {
+      "label": "Reporta el conteo de tokens: a stderr (terminal del agente, flushed) y a un",
+      "file_type": "rationale",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "wrapper_rtkread_rationale_86",
+      "community": 2,
+      "norm_label": "reporta el conteo de tokens: a stderr (terminal del agente, flushed) y a un"
+    },
+    {
+      "label": "antigravity-rtk-rules.md",
+      "file_type": "document",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "rules_antigravity_rtk_rules",
+      "community": 14,
+      "norm_label": "antigravity-rtk-rules.md"
+    },
+    {
+      "label": "RTK - Rust Token Killer (Google Antigravity)",
+      "file_type": "document",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "rules_antigravity_rtk_rules_rtk_rust_token_killer_google_antigravity",
+      "community": 14,
+      "norm_label": "rtk - rust token killer (google antigravity)"
+    },
+    {
+      "label": "Rule",
+      "file_type": "document",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "rules_antigravity_rtk_rules_rule",
+      "community": 14,
+      "norm_label": "rule"
+    },
+    {
+      "label": "Meta Commands",
+      "file_type": "document",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "rules_antigravity_rtk_rules_meta_commands",
+      "community": 14,
+      "norm_label": "meta commands"
+    },
+    {
+      "label": "Why",
+      "file_type": "document",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "rules_antigravity_rtk_rules_why",
+      "community": 14,
+      "norm_label": "why"
+    },
+    {
+      "label": "GEMINI.md",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "gemini",
+      "community": 13,
+      "norm_label": "gemini.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "gemini_graphify",
+      "community": 13,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 3,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "agpipe \u2014 Pipeline de desarrollo multi-modelo, optimizado para tokens",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_agpipe_pipeline_de_desarrollo_multi_modelo_optimizado_para_tokens",
+      "community": 3,
+      "norm_label": "agpipe \u2014 pipeline de desarrollo multi-modelo, optimizado para tokens"
+    },
+    {
+      "label": "Qu\u00e9 deja instalado",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "readme_qu\u00e9_deja_instalado",
+      "community": 3,
+      "norm_label": "que deja instalado"
+    },
+    {
+      "label": "Requisitos",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "readme_requisitos",
+      "community": 3,
+      "norm_label": "requisitos"
+    },
+    {
+      "label": "Instalaci\u00f3n",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "readme_instalaci\u00f3n",
+      "community": 3,
+      "norm_label": "instalacion"
+    },
+    {
+      "label": "Uso por proyecto",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "readme_uso_por_proyecto",
+      "community": 3,
+      "norm_label": "uso por proyecto"
+    },
+    {
+      "label": "Verificaci\u00f3n (shell nueva)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "readme_verificaci\u00f3n_shell_nueva",
+      "community": 3,
+      "norm_label": "verificacion (shell nueva)"
+    },
+    {
+      "label": "Componentes (por qu\u00e9 ahorran tokens)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "readme_componentes_por_qu\u00e9_ahorran_tokens",
+      "community": 3,
+      "norm_label": "componentes (por que ahorran tokens)"
+    },
+    {
+      "label": "Desinstalar",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "readme_desinstalar",
+      "community": 3,
+      "norm_label": "desinstalar"
+    },
+    {
+      "label": "Caveats",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "readme_caveats",
+      "community": 3,
+      "norm_label": "caveats"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_claude",
+      "community": 0,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "CLAUDE.md \u2014 Reglas para Claude en el pipeline multi-modelo",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "community": 0,
+      "norm_label": "claude.md \u2014 reglas para claude en el pipeline multi-modelo"
+    },
+    {
+      "label": "1. Qui\u00e9n eres en este flujo",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "templates_claude_1_qui\u00e9n_eres_en_este_flujo",
+      "community": 0,
+      "norm_label": "1. quien eres en este flujo"
+    },
+    {
+      "label": "1.1 Intercepci\u00f3n de Tareas sin Plan de Implementaci\u00f3n (Ahorro de Costos)",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "templates_claude_1_1_intercepci\u00f3n_de_tareas_sin_plan_de_implementaci\u00f3n_ahorro_de_costos",
+      "community": 0,
+      "norm_label": "1.1 intercepcion de tareas sin plan de implementacion (ahorro de costos)"
+    },
+    {
+      "label": "2. Regla de oro: graph-first (ahorro de tokens)",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "templates_claude_2_regla_de_oro_graph_first_ahorro_de_tokens",
+      "community": 0,
+      "norm_label": "2. regla de oro: graph-first (ahorro de tokens)"
+    },
+    {
+      "label": "3. Regla inquebrantable: Aislamiento de contexto (Lazy Loading)",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "templates_claude_3_regla_inquebrantable_aislamiento_de_contexto_lazy_loading",
+      "community": 0,
+      "norm_label": "3. regla inquebrantable: aislamiento de contexto (lazy loading)"
+    },
+    {
+      "label": "4. Etapa 2 \u2014 C\u00f3digo pesado / complejo",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L93",
+      "_origin": "ast",
+      "id": "templates_claude_4_etapa_2_c\u00f3digo_pesado_complejo",
+      "community": 0,
+      "norm_label": "4. etapa 2 \u2014 codigo pesado / complejo"
+    },
+    {
+      "label": "5. Etapa 5 \u2014 Ejecutar y corregir tests",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L115",
+      "_origin": "ast",
+      "id": "templates_claude_5_etapa_5_ejecutar_y_corregir_tests",
+      "community": 0,
+      "norm_label": "5. etapa 5 \u2014 ejecutar y corregir tests"
+    },
+    {
+      "label": "6. Protocolo de handoff",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L128",
+      "_origin": "ast",
+      "id": "templates_claude_6_protocolo_de_handoff",
+      "community": 0,
+      "norm_label": "6. protocolo de handoff"
+    },
+    {
+      "label": "7. Disciplina de tokens (resumen operativo)",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L140",
+      "_origin": "ast",
+      "id": "templates_claude_7_disciplina_de_tokens_resumen_operativo",
+      "community": 0,
+      "norm_label": "7. disciplina de tokens (resumen operativo)"
+    },
+    {
+      "label": "7.1. Lectura por rangos, no archivos completos (idea 7)",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L150",
+      "_origin": "ast",
+      "id": "templates_claude_7_1_lectura_por_rangos_no_archivos_completos_idea_7",
+      "community": 0,
+      "norm_label": "7.1. lectura por rangos, no archivos completos (idea 7)"
+    },
+    {
+      "label": "7.2. RTK auto-reescritura ACTIVA \u2014 no la pelees (idea 8)",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L156",
+      "_origin": "ast",
+      "id": "templates_claude_7_2_rtk_auto_reescritura_activa_no_la_pelees_idea_8",
+      "community": 0,
+      "norm_label": "7.2. rtk auto-reescritura activa \u2014 no la pelees (idea 8)"
+    },
+    {
+      "label": "7.3. Lectura de documentos (idea 4)",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L162",
+      "_origin": "ast",
+      "id": "templates_claude_7_3_lectura_de_documentos_idea_4",
+      "community": 0,
+      "norm_label": "7.3. lectura de documentos (idea 4)"
+    },
+    {
+      "label": "7.4. Contexto cacheable / prompt caching (idea 2)",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L171",
+      "_origin": "ast",
+      "id": "templates_claude_7_4_contexto_cacheable_prompt_caching_idea_2",
+      "community": 0,
+      "norm_label": "7.4. contexto cacheable / prompt caching (idea 2)"
+    },
+    {
+      "label": "8. Qu\u00e9 NO hacer",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L182",
+      "_origin": "ast",
+      "id": "templates_claude_8_qu\u00e9_no_hacer",
+      "community": 0,
+      "norm_label": "8. que no hacer"
+    },
+    {
+      "label": "9. Notas del entorno",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L193",
+      "_origin": "ast",
+      "id": "templates_claude_9_notas_del_entorno",
+      "community": 0,
+      "norm_label": "9. notas del entorno"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L202",
+      "_origin": "ast",
+      "id": "templates_claude_graphify",
+      "community": 0,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "GEMINI.md",
+      "file_type": "document",
+      "source_file": "templates/GEMINI.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_gemini",
+      "community": 4,
+      "norm_label": "gemini.md"
+    },
+    {
+      "label": "GEMINI.md \u2014 Reglas para Gemini en el pipeline multi-modelo",
+      "file_type": "document",
+      "source_file": "templates/GEMINI.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_gemini_gemini_md_reglas_para_gemini_en_el_pipeline_multi_modelo",
+      "community": 4,
+      "norm_label": "gemini.md \u2014 reglas para gemini en el pipeline multi-modelo"
+    },
+    {
+      "label": "1. Tu rol (etapas 1, 1b, 4)",
+      "file_type": "document",
+      "source_file": "templates/GEMINI.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "templates_gemini_1_tu_rol_etapas_1_1b_4",
+      "community": 4,
+      "norm_label": "1. tu rol (etapas 1, 1b, 4)"
+    },
+    {
+      "label": "2. Graph-first (ahorro de tokens)",
+      "file_type": "document",
+      "source_file": "templates/GEMINI.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "templates_gemini_2_graph_first_ahorro_de_tokens",
+      "community": 4,
+      "norm_label": "2. graph-first (ahorro de tokens)"
+    },
+    {
+      "label": "3. Contrato de Lazy Loading (aislamiento de contexto)",
+      "file_type": "document",
+      "source_file": "templates/GEMINI.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "templates_gemini_3_contrato_de_lazy_loading_aislamiento_de_contexto",
+      "community": 4,
+      "norm_label": "3. contrato de lazy loading (aislamiento de contexto)"
+    },
+    {
+      "label": "4. Handoff",
+      "file_type": "document",
+      "source_file": "templates/GEMINI.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "templates_gemini_4_handoff",
+      "community": 4,
+      "norm_label": "4. handoff"
+    },
+    {
+      "label": "5. Lectura de documentos",
+      "file_type": "document",
+      "source_file": "templates/GEMINI.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "templates_gemini_5_lectura_de_documentos",
+      "community": 4,
+      "norm_label": "5. lectura de documentos"
+    },
+    {
+      "label": "HANDOFF.md",
+      "file_type": "document",
+      "source_file": "templates/HANDOFF.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_handoff",
+      "community": 9,
+      "norm_label": "handoff.md"
+    },
+    {
+      "label": "HANDOFF \u2014 Resumen de nodos modificados (etapa 2 \u2192 etapa 4)",
+      "file_type": "document",
+      "source_file": "templates/HANDOFF.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_handoff_handoff_resumen_de_nodos_modificados_etapa_2_etapa_4",
+      "community": 9,
+      "norm_label": "handoff \u2014 resumen de nodos modificados (etapa 2 \u2192 etapa 4)"
+    },
+    {
+      "label": "C\u00f3mo usarla",
+      "file_type": "document",
+      "source_file": "templates/HANDOFF.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "templates_handoff_c\u00f3mo_usarla",
+      "community": 9,
+      "norm_label": "como usarla"
+    },
+    {
+      "label": "Handoff <!-- fecha: YYYY-MM-DD \u00b7 proyecto: <nombre> -->",
+      "file_type": "document",
+      "source_file": "templates/HANDOFF.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "templates_handoff_handoff_fecha_yyyy_mm_dd_proyecto_nombre",
+      "community": 9,
+      "norm_label": "handoff <!-- fecha: yyyy-mm-dd \u00b7 proyecto: <nombre> -->"
+    },
+    {
+      "label": "RTK.md",
+      "file_type": "document",
+      "source_file": "templates/RTK.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_rtk",
+      "community": 6,
+      "norm_label": "rtk.md"
+    },
+    {
+      "label": "RTK - Rust Token Killer",
+      "file_type": "document",
+      "source_file": "templates/RTK.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_rtk_rtk_rust_token_killer",
+      "community": 6,
+      "norm_label": "rtk - rust token killer"
+    },
+    {
+      "label": "Meta Commands (always use rtk directly)",
+      "file_type": "document",
+      "source_file": "templates/RTK.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "templates_rtk_meta_commands_always_use_rtk_directly",
+      "community": 6,
+      "norm_label": "meta commands (always use rtk directly)"
+    },
+    {
+      "label": "MarkItDown Integration (Document Conversion)",
+      "file_type": "document",
+      "source_file": "templates/RTK.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "templates_rtk_markitdown_integration_document_conversion",
+      "community": 6,
+      "norm_label": "markitdown integration (document conversion)"
+    },
+    {
+      "label": "Installation Verification",
+      "file_type": "document",
+      "source_file": "templates/RTK.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "templates_rtk_installation_verification",
+      "community": 6,
+      "norm_label": "installation verification"
+    },
+    {
+      "label": "Hook-Based Usage",
+      "file_type": "document",
+      "source_file": "templates/RTK.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "templates_rtk_hook_based_usage",
+      "community": 6,
+      "norm_label": "hook-based usage"
+    },
+    {
+      "label": "pipeline_report.md",
+      "file_type": "document",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_pipeline_report",
+      "community": 1,
+      "norm_label": "pipeline_report.md"
+    },
+    {
+      "label": "Informe Comprensivo: Pipeline de Desarrollo Optimizado (Antigravity Pipeline)",
+      "file_type": "document",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_pipeline_report_informe_comprensivo_pipeline_de_desarrollo_optimizado_antigravity_pipeline",
+      "community": 1,
+      "norm_label": "informe comprensivo: pipeline de desarrollo optimizado (antigravity pipeline)"
+    },
+    {
+      "label": "1. Arquitectura y Flujo de Trabajo Multi-Modelo",
+      "file_type": "document",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "templates_pipeline_report_1_arquitectura_y_flujo_de_trabajo_multi_modelo",
+      "community": 1,
+      "norm_label": "1. arquitectura y flujo de trabajo multi-modelo"
+    },
+    {
+      "label": "Detalle de las Etapas",
+      "file_type": "document",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "templates_pipeline_report_detalle_de_las_etapas",
+      "community": 1,
+      "norm_label": "detalle de las etapas"
+    },
+    {
+      "label": "2. Tecnolog\u00edas y Herramientas del Pipeline",
+      "file_type": "document",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "templates_pipeline_report_2_tecnolog\u00edas_y_herramientas_del_pipeline",
+      "community": 1,
+      "norm_label": "2. tecnologias y herramientas del pipeline"
+    },
+    {
+      "label": "A. Graphify (Exploraci\u00f3n Local por Grafo)",
+      "file_type": "document",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "templates_pipeline_report_a_graphify_exploraci\u00f3n_local_por_grafo",
+      "community": 1,
+      "norm_label": "a. graphify (exploracion local por grafo)"
+    },
+    {
+      "label": "B. RTK (Rust Token Killer)",
+      "file_type": "document",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "templates_pipeline_report_b_rtk_rust_token_killer",
+      "community": 1,
+      "norm_label": "b. rtk (rust token killer)"
+    },
+    {
+      "label": "C. Integraci\u00f3n de MarkItDown (Microsoft) en RTK",
+      "file_type": "document",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "templates_pipeline_report_c_integraci\u00f3n_de_markitdown_microsoft_en_rtk",
+      "community": 1,
+      "norm_label": "c. integracion de markitdown (microsoft) en rtk"
+    },
+    {
+      "label": "D. Hooks de Reescritura Autom\u00e1tica (`PreToolUse`)",
+      "file_type": "document",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "templates_pipeline_report_d_hooks_de_reescritura_autom\u00e1tica_pretooluse",
+      "community": 1,
+      "norm_label": "d. hooks de reescritura automatica (`pretooluse`)"
+    },
+    {
+      "label": "E. Arquitectura Lazy Loading y Aislamiento de Contexto",
+      "file_type": "document",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "templates_pipeline_report_e_arquitectura_lazy_loading_y_aislamiento_de_contexto",
+      "community": 1,
+      "norm_label": "e. arquitectura lazy loading y aislamiento de contexto"
+    },
+    {
+      "label": "3. Pruebas Emp\u00edricas y M\u00e9tricas de Ahorro",
+      "file_type": "document",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L77",
+      "_origin": "ast",
+      "id": "templates_pipeline_report_3_pruebas_emp\u00edricas_y_m\u00e9tricas_de_ahorro",
+      "community": 1,
+      "norm_label": "3. pruebas empiricas y metricas de ahorro"
+    },
+    {
+      "label": "3.1. Lectura honesta de las m\u00e9tricas agregadas",
+      "file_type": "document",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L87",
+      "_origin": "ast",
+      "id": "templates_pipeline_report_3_1_lectura_honesta_de_las_m\u00e9tricas_agregadas",
+      "community": 1,
+      "norm_label": "3.1. lectura honesta de las metricas agregadas"
+    },
+    {
+      "label": "4. Instrucciones Espec\u00edficas para Claude (Reglas de Compromiso)",
+      "file_type": "document",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L108",
+      "_origin": "ast",
+      "id": "templates_pipeline_report_4_instrucciones_espec\u00edficas_para_claude_reglas_de_compromiso",
+      "community": 1,
+      "norm_label": "4. instrucciones especificas para claude (reglas de compromiso)"
+    },
+    {
+      "label": "5. Integraci\u00f3n con TestSprite",
+      "file_type": "document",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L122",
+      "_origin": "ast",
+      "id": "templates_pipeline_report_5_integraci\u00f3n_con_testsprite",
+      "community": 1,
+      "norm_label": "5. integracion con testsprite"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "install.ps1",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "install_ps1_install",
+      "target": "install_ps1_install_say"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "install.ps1",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "install_ps1_install",
+      "target": "install_ps1_install_warn"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "install.sh",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "install_sh_install",
+      "target": "install_backup"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "install.sh",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "install_sh_install",
+      "target": "install_ensure_path"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "install.sh",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "install_sh_install",
+      "target": "install_sh_install_say"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "install.sh",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "install_sh_install",
+      "target": "install_sh_install_warn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "install.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "install_sh_install",
+      "target": "users_feli_desktop_antigrav_agpipe_install_sh__entry"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "install.sh",
+      "source_location": "L83",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "users_feli_desktop_antigrav_agpipe_install_sh__entry",
+      "target": "install_backup"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "install.sh",
+      "source_location": "L77",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "users_feli_desktop_antigrav_agpipe_install_sh__entry",
+      "target": "install_ensure_path"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "install.sh",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "users_feli_desktop_antigrav_agpipe_install_sh__entry",
+      "target": "install_sh_install_say"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "install.sh",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "users_feli_desktop_antigrav_agpipe_install_sh__entry",
+      "target": "install_sh_install_warn"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "install.sh",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "install_backup",
+      "target": "install_sh_install_warn"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "install.sh",
+      "source_location": "L75",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "install_ensure_path",
+      "target": "install_sh_install_warn"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scratch/test-demo.sh",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scratch_test_demo",
+      "target": "scratch_test_demo_say"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scratch/test-demo.sh",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scratch_test_demo",
+      "target": "scratch_test_demo_wait_enter"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scratch/test-demo.sh",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scratch_test_demo",
+      "target": "scratch_test_demo_warn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scratch/test-demo.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scratch_test_demo",
+      "target": "users_feli_desktop_antigrav_agpipe_scratch_test_demo_sh__entry"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scratch/test-demo.sh",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "users_feli_desktop_antigrav_agpipe_scratch_test_demo_sh__entry",
+      "target": "scratch_test_demo_say"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scratch/test-demo.sh",
+      "source_location": "L128",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "users_feli_desktop_antigrav_agpipe_scratch_test_demo_sh__entry",
+      "target": "scratch_test_demo_wait_enter"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scratch/test-demo.sh",
+      "source_location": "L115",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "users_feli_desktop_antigrav_agpipe_scratch_test_demo_sh__entry",
+      "target": "scratch_test_demo_warn"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_demo_tutorial",
+      "target": "scripts_demo_tutorial_say"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "scripts_demo_tutorial",
+      "target": "scripts_demo_tutorial_start_tail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "scripts_demo_tutorial",
+      "target": "scripts_demo_tutorial_stop_tail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_demo_tutorial",
+      "target": "scripts_demo_tutorial_wait_enter"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_demo_tutorial",
+      "target": "scripts_demo_tutorial_warn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_demo_tutorial",
+      "target": "users_feli_desktop_antigrav_agpipe_scripts_demo_tutorial_sh__entry"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "users_feli_desktop_antigrav_agpipe_scripts_demo_tutorial_sh__entry",
+      "target": "scripts_demo_tutorial_say"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L155",
+      "weight": 1.0,
+      "context": "call",
+      "source": "users_feli_desktop_antigrav_agpipe_scripts_demo_tutorial_sh__entry",
+      "target": "scripts_demo_tutorial_start_tail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L157",
+      "weight": 1.0,
+      "context": "call",
+      "source": "users_feli_desktop_antigrav_agpipe_scripts_demo_tutorial_sh__entry",
+      "target": "scripts_demo_tutorial_stop_tail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L128",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "users_feli_desktop_antigrav_agpipe_scripts_demo_tutorial_sh__entry",
+      "target": "scripts_demo_tutorial_wait_enter"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/demo-tutorial.sh",
+      "source_location": "L115",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "users_feli_desktop_antigrav_agpipe_scripts_demo_tutorial_sh__entry",
+      "target": "scripts_demo_tutorial_warn"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/init-project.sh",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_init_project",
+      "target": "scripts_init_project_copy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/init-project.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_init_project",
+      "target": "users_feli_desktop_antigrav_agpipe_scripts_init_project_sh__entry"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/init-project.sh",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "users_feli_desktop_antigrav_agpipe_scripts_init_project_sh__entry",
+      "target": "scripts_init_project_copy"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "uninstall.sh",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "uninstall",
+      "target": "uninstall_say"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "uninstall.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "uninstall",
+      "target": "users_feli_desktop_antigrav_agpipe_uninstall_sh__entry"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "uninstall.sh",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "users_feli_desktop_antigrav_agpipe_uninstall_sh__entry",
+      "target": "uninstall_say"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtk-hook-gemini-wrapper.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "wrapper_rtk_hook_gemini_wrapper",
+      "target": "wrapper_rtk_hook_gemini_wrapper_clean_cmd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtk-hook-gemini-wrapper.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "wrapper_rtk_hook_gemini_wrapper",
+      "target": "wrapper_rtk_hook_gemini_wrapper_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtk-hook-gemini-wrapper.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "wrapper_rtk_hook_gemini_wrapper",
+      "target": "wrapper_rtk_hook_gemini_wrapper_restore_cmd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtk-hook-gemini-wrapper.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "wrapper_rtk_hook_gemini_wrapper_main",
+      "target": "wrapper_rtk_hook_gemini_wrapper_clean_cmd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtk-hook-gemini-wrapper.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "wrapper_rtk_hook_gemini_wrapper_main",
+      "target": "wrapper_rtk_hook_gemini_wrapper_restore_cmd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L128",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread",
+      "target": "wrapper_rtkread_convert"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread",
+      "target": "wrapper_rtkread_count_tokens"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread",
+      "target": "wrapper_rtkread_emit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread",
+      "target": "wrapper_rtkread_exec_real_rtk"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread",
+      "target": "wrapper_rtkread_find_real_rtk"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread",
+      "target": "wrapper_rtkread_get_compressed_text"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread",
+      "target": "wrapper_rtkread_is_project_initialized"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread",
+      "target": "wrapper_rtkread_looks_like_self"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread",
+      "target": "wrapper_rtkread_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "wrapper_rtkread",
+      "target": "wrapper_rtkread_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread",
+      "target": "wrapper_rtkread_venv_bin"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread_get_compressed_text",
+      "target": "wrapper_rtkread_venv_bin"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread_rationale_24",
+      "target": "wrapper_rtkread_venv_bin"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread_find_real_rtk",
+      "target": "wrapper_rtkread_looks_like_self"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread_rationale_34",
+      "target": "wrapper_rtkread_looks_like_self"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread_exec_real_rtk",
+      "target": "wrapper_rtkread_find_real_rtk"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread_get_compressed_text",
+      "target": "wrapper_rtkread_find_real_rtk"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread_main",
+      "target": "wrapper_rtkread_exec_real_rtk"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L131",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread_convert",
+      "target": "wrapper_rtkread_emit"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L159",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread_main",
+      "target": "wrapper_rtkread_emit"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "wrapper_rtkread_convert",
+      "target": "wrapper_rtkread_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L257",
+      "weight": 1.0,
+      "source": "wrapper_rtkread_main",
+      "target": "wrapper_rtkread_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "wrapper_rtkread_rationale_86",
+      "target": "wrapper_rtkread_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread_convert",
+      "target": "wrapper_rtkread_get_compressed_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread_main",
+      "target": "wrapper_rtkread_get_compressed_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L133",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread_convert",
+      "target": "wrapper_rtkread_count_tokens"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L206",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread_main",
+      "target": "wrapper_rtkread_convert"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L158",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread_main",
+      "target": "wrapper_rtkread_count_tokens"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wrapper/rtkread.py",
+      "source_location": "L220",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "wrapper_rtkread_main",
+      "target": "wrapper_rtkread_is_project_initialized"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "rules_antigravity_rtk_rules",
+      "target": "rules_antigravity_rtk_rules_rtk_rust_token_killer_google_antigravity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "rules_antigravity_rtk_rules_rtk_rust_token_killer_google_antigravity",
+      "target": "rules_antigravity_rtk_rules_meta_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "rules_antigravity_rtk_rules_rtk_rust_token_killer_google_antigravity",
+      "target": "rules_antigravity_rtk_rules_rule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/antigravity-rtk-rules.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "rules_antigravity_rtk_rules_rtk_rust_token_killer_google_antigravity",
+      "target": "rules_antigravity_rtk_rules_why",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "gemini",
+      "target": "gemini_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme",
+      "target": "readme_agpipe_pipeline_de_desarrollo_multi_modelo_optimizado_para_tokens"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_agpipe_pipeline_de_desarrollo_multi_modelo_optimizado_para_tokens",
+      "target": "readme_caveats"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_agpipe_pipeline_de_desarrollo_multi_modelo_optimizado_para_tokens",
+      "target": "readme_componentes_por_qu\u00e9_ahorran_tokens"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_agpipe_pipeline_de_desarrollo_multi_modelo_optimizado_para_tokens",
+      "target": "readme_desinstalar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_agpipe_pipeline_de_desarrollo_multi_modelo_optimizado_para_tokens",
+      "target": "readme_instalaci\u00f3n"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_agpipe_pipeline_de_desarrollo_multi_modelo_optimizado_para_tokens",
+      "target": "readme_qu\u00e9_deja_instalado"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_agpipe_pipeline_de_desarrollo_multi_modelo_optimizado_para_tokens",
+      "target": "readme_requisitos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_agpipe_pipeline_de_desarrollo_multi_modelo_optimizado_para_tokens",
+      "target": "readme_uso_por_proyecto"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_agpipe_pipeline_de_desarrollo_multi_modelo_optimizado_para_tokens",
+      "target": "readme_verificaci\u00f3n_shell_nueva"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude",
+      "target": "templates_claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "templates_claude_1_qui\u00e9n_eres_en_este_flujo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "templates_claude_2_regla_de_oro_graph_first_ahorro_de_tokens"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "templates_claude_3_regla_inquebrantable_aislamiento_de_contexto_lazy_loading"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "templates_claude_4_etapa_2_c\u00f3digo_pesado_complejo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "templates_claude_5_etapa_5_ejecutar_y_corregir_tests"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "templates_claude_6_protocolo_de_handoff"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L129",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "templates_claude_7_disciplina_de_tokens_resumen_operativo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L171",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "templates_claude_8_qu\u00e9_no_hacer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "templates_claude_9_notas_del_entorno"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L191",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude_claude_md_reglas_para_claude_en_el_pipeline_multi_modelo",
+      "target": "templates_claude_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude_1_qui\u00e9n_eres_en_este_flujo",
+      "target": "templates_claude_1_1_intercepci\u00f3n_de_tareas_sin_plan_de_implementaci\u00f3n_ahorro_de_costos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude_7_disciplina_de_tokens_resumen_operativo",
+      "target": "templates_claude_7_1_lectura_por_rangos_no_archivos_completos_idea_7"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L145",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude_7_disciplina_de_tokens_resumen_operativo",
+      "target": "templates_claude_7_2_rtk_auto_reescritura_activa_no_la_pelees_idea_8"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L151",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude_7_disciplina_de_tokens_resumen_operativo",
+      "target": "templates_claude_7_3_lectura_de_documentos_idea_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/CLAUDE.md",
+      "source_location": "L160",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_claude_7_disciplina_de_tokens_resumen_operativo",
+      "target": "templates_claude_7_4_contexto_cacheable_prompt_caching_idea_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/GEMINI.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_gemini",
+      "target": "templates_gemini_gemini_md_reglas_para_gemini_en_el_pipeline_multi_modelo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/GEMINI.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_gemini_gemini_md_reglas_para_gemini_en_el_pipeline_multi_modelo",
+      "target": "templates_gemini_1_tu_rol_etapas_1_1b_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/GEMINI.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_gemini_gemini_md_reglas_para_gemini_en_el_pipeline_multi_modelo",
+      "target": "templates_gemini_2_graph_first_ahorro_de_tokens"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/GEMINI.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_gemini_gemini_md_reglas_para_gemini_en_el_pipeline_multi_modelo",
+      "target": "templates_gemini_3_contrato_de_lazy_loading_aislamiento_de_contexto"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/GEMINI.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_gemini_gemini_md_reglas_para_gemini_en_el_pipeline_multi_modelo",
+      "target": "templates_gemini_4_handoff"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/GEMINI.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_gemini_gemini_md_reglas_para_gemini_en_el_pipeline_multi_modelo",
+      "target": "templates_gemini_5_lectura_de_documentos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/HANDOFF.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_handoff",
+      "target": "templates_handoff_handoff_resumen_de_nodos_modificados_etapa_2_etapa_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/HANDOFF.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_handoff_handoff_resumen_de_nodos_modificados_etapa_2_etapa_4",
+      "target": "templates_handoff_c\u00f3mo_usarla"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/HANDOFF.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_handoff_handoff_resumen_de_nodos_modificados_etapa_2_etapa_4",
+      "target": "templates_handoff_handoff_fecha_yyyy_mm_dd_proyecto_nombre"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/RTK.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_rtk",
+      "target": "templates_rtk_rtk_rust_token_killer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/RTK.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_rtk_rtk_rust_token_killer",
+      "target": "templates_rtk_hook_based_usage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/RTK.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_rtk_rtk_rust_token_killer",
+      "target": "templates_rtk_installation_verification"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/RTK.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_rtk_rtk_rust_token_killer",
+      "target": "templates_rtk_markitdown_integration_document_conversion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/RTK.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_rtk_rtk_rust_token_killer",
+      "target": "templates_rtk_meta_commands_always_use_rtk_directly"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_pipeline_report",
+      "target": "templates_pipeline_report_informe_comprensivo_pipeline_de_desarrollo_optimizado_antigravity_pipeline"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_pipeline_report_informe_comprensivo_pipeline_de_desarrollo_optimizado_antigravity_pipeline",
+      "target": "templates_pipeline_report_1_arquitectura_y_flujo_de_trabajo_multi_modelo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_pipeline_report_informe_comprensivo_pipeline_de_desarrollo_optimizado_antigravity_pipeline",
+      "target": "templates_pipeline_report_2_tecnolog\u00edas_y_herramientas_del_pipeline"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_pipeline_report_informe_comprensivo_pipeline_de_desarrollo_optimizado_antigravity_pipeline",
+      "target": "templates_pipeline_report_3_pruebas_emp\u00edricas_y_m\u00e9tricas_de_ahorro"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_pipeline_report_informe_comprensivo_pipeline_de_desarrollo_optimizado_antigravity_pipeline",
+      "target": "templates_pipeline_report_4_instrucciones_espec\u00edficas_para_claude_reglas_de_compromiso"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L122",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_pipeline_report_informe_comprensivo_pipeline_de_desarrollo_optimizado_antigravity_pipeline",
+      "target": "templates_pipeline_report_5_integraci\u00f3n_con_testsprite"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_pipeline_report_1_arquitectura_y_flujo_de_trabajo_multi_modelo",
+      "target": "templates_pipeline_report_detalle_de_las_etapas"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_pipeline_report_2_tecnolog\u00edas_y_herramientas_del_pipeline",
+      "target": "templates_pipeline_report_a_graphify_exploraci\u00f3n_local_por_grafo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_pipeline_report_2_tecnolog\u00edas_y_herramientas_del_pipeline",
+      "target": "templates_pipeline_report_b_rtk_rust_token_killer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_pipeline_report_2_tecnolog\u00edas_y_herramientas_del_pipeline",
+      "target": "templates_pipeline_report_c_integraci\u00f3n_de_markitdown_microsoft_en_rtk"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_pipeline_report_2_tecnolog\u00edas_y_herramientas_del_pipeline",
+      "target": "templates_pipeline_report_d_hooks_de_reescritura_autom\u00e1tica_pretooluse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_pipeline_report_2_tecnolog\u00edas_y_herramientas_del_pipeline",
+      "target": "templates_pipeline_report_e_arquitectura_lazy_loading_y_aislamiento_de_contexto"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/pipeline_report.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_pipeline_report_3_pruebas_emp\u00edricas_y_m\u00e9tricas_de_ahorro",
+      "target": "templates_pipeline_report_3_1_lectura_honesta_de_las_m\u00e9tricas_agregadas"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "9e5cc06c694ab57e3500c6c6509e6d8f5a7e0599"
+}

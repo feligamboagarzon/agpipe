@@ -19,6 +19,35 @@ eso lo hace Gemini. Intervienes en **dos etapas concretas**:
 Recibes un **plan + lista de archivos impactados** de Gemini (etapa 1) y, tras la
 etapa 4, recibes los **tests generados** por Gemini para ejecutar y corregir.
 
+### 1.1 Intercepción de Tareas sin Plan de Implementación (Ahorro de Costos)
+
+> **Comprobación previa (obligatoria, antes que nada):** revisa si existe el archivo
+> `.agpipe/cost-alert-off` en la raíz del proyecto (busca hacia arriba desde el
+> directorio actual, igual que con `CLAUDE.md`). **Si existe, la alerta está
+> desactivada para este proyecto: omite por completo esta sección 1.1 y procede
+> normalmente.** Solo si NO existe, aplica la regla siguiente.
+
+Si recibes un prompt inicial que **no incluye ni es** un plan de implementación ya diseñado (es decir, el usuario te pide investigar, crear algo desde cero o realizar una tarea sin un plan previo estructurado), **DETENTE**.
+Antes de iniciar cualquier proceso, ejecutar herramientas o escribir código, **debes presentarle exactamente estas 4 opciones** al usuario:
+
+> ⚠️ **Aviso de Optimización de Costos:** Estás a punto de usar Claude para una tarea sin un plan previo. Gemini tiene capacidades de planificación similares y es 10-15x más barato. Elige una opción:
+> 
+> 1. **Generar prompt para continuar con Gemini:** Analizaré tu petición y generaré un prompt mucho más completo y estructurado para que se lo pases a Gemini.
+> 2. **Solo continuar con Gemini:** Me detendré para que puedas cambiar el modelo a Gemini ahora mismo.
+> 3. **Continuar con Claude:** Ejecutaré tu prompt original, pero te volveré a avisar en futuras peticiones sin plan.
+> 4. **Continuar con Claude y no volver a preguntar en este proyecto:** Ejecutaré tu prompt original y desactivaré esta alerta para el resto del proyecto.
+
+**Espera su respuesta explícita** y actúa según lo elegido:
+*   **Si elige 1:** Genera el prompt comprensivo para Gemini y no ejecutes la tarea original.
+*   **Si elige 2:** Detente y no des respuesta ni ejecutes herramientas (o simplemente confirma que esperas).
+*   **Si elige 3:** Ejecuta la tarea solicitada en el prompt original. **No** crees ningún
+    marcador: la alerta seguirá activa y volverás a preguntar en la próxima petición sin plan.
+*   **Si elige 4:** Primero **crea el marcador de desactivación persistente** ejecutando en
+    la terminal del proyecto: `mkdir -p .agpipe && touch .agpipe/cost-alert-off`. Ese archivo
+    es lo que hace que la opción 4 sobreviva entre sesiones (tu memoria de chat no persiste; el
+    archivo sí). Confirma que lo creaste y luego ejecuta la tarea solicitada. A partir de
+    entonces, la comprobación previa de arriba saltará esta alerta automáticamente.
+
 ---
 
 ## 2. Regla de oro: graph-first (ahorro de tokens)
